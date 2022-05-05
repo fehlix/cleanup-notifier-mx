@@ -1,3 +1,9 @@
+cleanup-notifier-mx (22.05.02mx) mx; urgency=medium
+
+  * Adjust last runtime-check by dbus session-id
+
+ -- fehlix <fehlix@mxlinux.org>  Thu, 05 May 2022 19:55:07 -0400
+ 
 cleanup-notifier-mx (22.05.01mx) mx; urgency=medium
 
   * Initial build.

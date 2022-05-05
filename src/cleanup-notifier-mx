@@ -130,15 +130,18 @@ else:
     RUNTIME_CHECK = f"/tmp/{CLEANUP_TIMESTAMP}-{UNAME}.run"
     
 if os.path.exists(RUNTIME_CHECK):
-    now = int(time.time())
-    last = os.path.getmtime(RUNTIME_CHECK)
-    if now - last < CLEANUP_CHECK_LAST_RUN:
-        print(f"Cleanup-notifier: Last run less then {CLEANUP_CHECK_LAST_RUN} seconds; exit(1)")
-        sys.exit(1)
+    with open(RUNTIME_CHECK, "r") as f:
+        dba = f.read()
+        if os.getenv("DBUS_SESSION_BUS_ADDRESS", "None") in dba:
+            now = int(time.time())
+            last = os.path.getmtime(RUNTIME_CHECK)
+            if now - last < CLEANUP_CHECK_LAST_RUN:
+                print(f"Cleanup-notifier: Last run less then {CLEANUP_CHECK_LAST_RUN} seconds; exit(1)")
+                sys.exit(1)
 
 # set runtime check  
 with open(RUNTIME_CHECK, "w") as f:
-    pass
+    f.write(os.getenv("DBUS_SESSION_BUS_ADDRESS", "None"))
 
 #-----------------------------------------------------------------------
 # check cleanup tool is available
