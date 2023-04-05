@@ -105,7 +105,6 @@ def live_boot():
     cmd = "/usr/bin/df --output=fstype /"
     live = run(cmd.split(), text=True, capture_output=True).stdout.split("\n")[-2]
     if "overlay" in live:
-        return False
         return True
     else:
         return False
