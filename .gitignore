@@ -6,8 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+mesonbuild/
+.tx/
+*~
+
 # Distribution / packaging
 .Python
+mesonbuild/
 build/
 develop-eggs/
 dist/

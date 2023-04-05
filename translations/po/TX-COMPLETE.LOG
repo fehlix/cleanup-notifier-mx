@@ -1,0 +1,54 @@
+# Transifex resource cleanup-notifier-mx 
+# with minimum completion percent 10%
+# generated at Tue, 04 Apr 2023 19:27:20 -0500
+   Nr.		Cnt.	 Compl.		Code		Language
+   ---		----	 ------		----		--------
+     1		   6	   100%    	de      	de	German
+     2		   4	    66%    	ca      	ca	Catalan; Valencian
+     3		   4	    66%    	cs      	cs	Czech
+     4		   4	    66%    	da      	da	Danish
+     5		   4	    66%    	el      	el	Greek, Modern (1453-)
+     6		   4	    66%    	es      	es	Spanish; Castilian
+     7		   4	    66%    	fi      	fi	Finnish
+     8		   4	    66%    	fr      	fr	French
+     9		   4	    66%    	hi      	hi	Hindi
+    10		   4	    66%    	hu      	hu	Hungarian
+    11		   4	    66%    	it      	it	Italian
+    12		   4	    66%    	ja      	ja	Japanese
+    13		   4	    66%    	lt      	lt	Lithuanian
+    14		   4	    66%    	nb      	nb	Bokmål, Norwegian; Norwegian Bokmål
+    15		   4	    66%    	nl      	nl	Dutch; Flemish
+    16		   4	    66%    	pl      	pl	Polish
+    17		   4	    66%    	pt      	pt	Portuguese
+    18		   4	    66%    	pt_BR   	pt	Portuguese @ Brazil
+    19		   4	    66%    	ru      	ru	Russian
+    20		   4	    66%    	sk      	sk	Slovak
+    21		   4	    66%    	sl      	sl	Slovenian
+    22		   4	    66%    	sv      	sv	Swedish
+    23		   4	    66%    	tr      	tr	Turkish
+    24		   4	    66%    	uk      	uk	Ukrainian
+    25		   3	    50%    	ar      	ar	Arabic
+    26		   3	    50%    	bg      	bg	Bulgarian
+    27		   3	    50%    	es_ES   	es	Spanish; Castilian @ Spain
+    28		   3	    50%    	eu      	eu	Basque
+    29		   3	    50%    	fa      	fa	Persian
+    30		   3	    50%    	fr_BE   	fr	French @ Belgium
+    31		   3	    50%    	hr      	hr	Croatian
+    32		   3	    50%    	id      	id	Indonesian
+    33		   3	    50%    	is      	is	Icelandic
+    34		   3	    50%    	kk      	kk	Kazakh
+    35		   3	    50%    	ko      	ko	Korean
+    36		   3	    50%    	ro      	ro	Romanian; Moldavian; Moldovan
+    37		   3	    50%    	sq      	sq	Albanian
+    38		   3	    50%    	sr      	sr	Serbian
+    39		   3	    50%    	zh_CN   	zh	Chinese @ China
+    40		   3	    50%    	zh_TW   	zh	Chinese @ Taiwan, Province of China
+    41		   2	    33%    	am      	am	Amharic
+    42		   2	    33%    	et      	et	Estonian
+    43		   2	    33%    	fil_PH  		Filipino @ Philippines
+    44		   2	    33%    	gl_ES   	gl	Galician @ Spain
+    45		   2	    33%    	mr      	mr	Marathi
+    46		   1	    16%    	he_IL   	he	Hebrew @ Israel
+    47		   1	    16%    	nb_NO   	nb	Bokmål, Norwegian; Norwegian Bokmål @ Norway
+    48		   1	    16%    	nl_BE   	nl	Dutch; Flemish @ Belgium
+    49		   1	    16%    	th      	th	Thai
