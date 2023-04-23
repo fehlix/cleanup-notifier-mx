@@ -1,0 +1,167 @@
+ dpkg-buildpackage -us -uc -ui -si
+dpkg-buildpackage: info: source package cleanup-notifier-mx
+dpkg-buildpackage: info: source version 23.04
+dpkg-buildpackage: info: source distribution mx
+dpkg-buildpackage: info: source changed by fehlix <fehlix@mxlinux.org>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean  --buildsystem=meson \
+       --builddirectory=mesonbuild
+ dpkg-source -b .
+dpkg-source: info: using source format '3.0 (native)'
+dpkg-source: info: building cleanup-notifier-mx in cleanup-notifier-mx_23.04.tar.xz
+dpkg-source: info: building cleanup-notifier-mx in cleanup-notifier-mx_23.04.dsc
+ debian/rules build
+dh build  --buildsystem=meson \
+       --builddirectory=mesonbuild
+The Meson build system
+Version: 1.0.1
+Source dir: /tmpdir/build/cleanup-notifier-mx
+Build dir: /tmpdir/build/cleanup-notifier-mx/mesonbuild
+Build type: native build
+Configuring version with command
+Project name: cleanup-notifier-mx
+Project version: 23.04
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Configuring cleanup-notifier-mx.desktop.i18n with command
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Build targets in project: 50
+
+cleanup-notifier-mx 23.04
+
+  User defined options
+    buildtype    : plain
+    libdir       : lib/x86_64-linux-gnu
+    localstatedir: /var
+    prefix       : /usr
+    sysconfdir   : /etc
+    wrap_mode    : nodownload
+
+Found ninja-1.11.1 at /usr/bin/ninja
+[1/47] Generating translations/po/am/LC_MESSAGES/cleanup-notifier-mx-am.mo with a custom command
+[2/47] Generating translations/po/ar/LC_MESSAGES/cleanup-notifier-mx-ar.mo with a custom command
+[3/47] Generating translations/po/bg/LC_MESSAGES/cleanup-notifier-mx-bg.mo with a custom command
+[4/47] Generating translations/po/ca/LC_MESSAGES/cleanup-notifier-mx-ca.mo with a custom command
+[5/47] Generating translations/po/cs/LC_MESSAGES/cleanup-notifier-mx-cs.mo with a custom command
+[6/47] Generating translations/po/da/LC_MESSAGES/cleanup-notifier-mx-da.mo with a custom command
+[7/47] Generating translations/po/de/LC_MESSAGES/cleanup-notifier-mx-de.mo with a custom command
+[8/47] Generating translations/po/el/LC_MESSAGES/cleanup-notifier-mx-el.mo with a custom command
+[9/47] Generating translations/po/es_ES/LC_MESSAGES/cleanup-notifier-mx-es_ES.mo with a custom command
+[10/47] Generating translations/po/es/LC_MESSAGES/cleanup-notifier-mx-es.mo with a custom command
+[11/47] Generating translations/po/et/LC_MESSAGES/cleanup-notifier-mx-et.mo with a custom command
+[12/47] Generating translations/po/eu/LC_MESSAGES/cleanup-notifier-mx-eu.mo with a custom command
+[13/47] Generating translations/po/fil_PH/LC_MESSAGES/cleanup-notifier-mx-fil_PH.mo with a custom command
+[14/47] Generating translations/po/fa/LC_MESSAGES/cleanup-notifier-mx-fa.mo with a custom command
+[15/47] Generating translations/po/fr_BE/LC_MESSAGES/cleanup-notifier-mx-fr_BE.mo with a custom command
+[16/47] Generating translations/po/fi/LC_MESSAGES/cleanup-notifier-mx-fi.mo with a custom command
+[17/47] Generating translations/po/fr/LC_MESSAGES/cleanup-notifier-mx-fr.mo with a custom command
+[18/47] Generating translations/po/gl_ES/LC_MESSAGES/cleanup-notifier-mx-gl_ES.mo with a custom command
+[19/47] Generating translations/po/he_IL/LC_MESSAGES/cleanup-notifier-mx-he_IL.mo with a custom command
+[20/47] Generating translations/po/hr/LC_MESSAGES/cleanup-notifier-mx-hr.mo with a custom command
+[21/47] Generating translations/po/hi/LC_MESSAGES/cleanup-notifier-mx-hi.mo with a custom command
+[22/47] Generating translations/po/hu/LC_MESSAGES/cleanup-notifier-mx-hu.mo with a custom command
+[23/47] Generating translations/po/id/LC_MESSAGES/cleanup-notifier-mx-id.mo with a custom command
+[24/47] Generating translations/po/it/LC_MESSAGES/cleanup-notifier-mx-it.mo with a custom command
+[25/47] Generating translations/po/is/LC_MESSAGES/cleanup-notifier-mx-is.mo with a custom command
+[26/47] Generating translations/po/ja/LC_MESSAGES/cleanup-notifier-mx-ja.mo with a custom command
+[27/47] Generating translations/po/ko/LC_MESSAGES/cleanup-notifier-mx-ko.mo with a custom command
+[28/47] Generating translations/po/kk/LC_MESSAGES/cleanup-notifier-mx-kk.mo with a custom command
+[29/47] Generating translations/po/lt/LC_MESSAGES/cleanup-notifier-mx-lt.mo with a custom command
+[30/47] Generating translations/po/mr/LC_MESSAGES/cleanup-notifier-mx-mr.mo with a custom command
+[31/47] Generating translations/po/nl/LC_MESSAGES/cleanup-notifier-mx-nl.mo with a custom command
+[32/47] Generating translations/po/pl/LC_MESSAGES/cleanup-notifier-mx-pl.mo with a custom command
+[33/47] Generating translations/po/nb/LC_MESSAGES/cleanup-notifier-mx-nb.mo with a custom command
+[34/47] Generating translations/po/pt_BR/LC_MESSAGES/cleanup-notifier-mx-pt_BR.mo with a custom command
+[35/47] Generating translations/po/pt/LC_MESSAGES/cleanup-notifier-mx-pt.mo with a custom command
+[36/47] Generating translations/po/ro/LC_MESSAGES/cleanup-notifier-mx-ro.mo with a custom command
+[37/47] Generating translations/po/ru/LC_MESSAGES/cleanup-notifier-mx-ru.mo with a custom command
+[38/47] Generating translations/po/sk/LC_MESSAGES/cleanup-notifier-mx-sk.mo with a custom command
+[39/47] Generating translations/po/sl/LC_MESSAGES/cleanup-notifier-mx-sl.mo with a custom command
+[40/47] Generating translations/po/sq/LC_MESSAGES/cleanup-notifier-mx-sq.mo with a custom command
+[41/47] Generating translations/po/sr/LC_MESSAGES/cleanup-notifier-mx-sr.mo with a custom command
+[42/47] Generating translations/po/sv/LC_MESSAGES/cleanup-notifier-mx-sv.mo with a custom command
+[43/47] Generating translations/po/uk/LC_MESSAGES/cleanup-notifier-mx-uk.mo with a custom command
+[44/47] Generating translations/po/tr/LC_MESSAGES/cleanup-notifier-mx-tr.mo with a custom command
+[45/47] Generating translations/po/zh_CN/LC_MESSAGES/cleanup-notifier-mx-zh_CN.mo with a custom command
+[46/47] Generating translations/po/zh_TW/LC_MESSAGES/cleanup-notifier-mx-zh_TW.mo with a custom command
+[47/47] Generating data/cleanup-notifier-mx.desktop with a custom command
+/usr/bin/msgfmt: ../data/../po/LINGUAS does not exist
+ninja: no work to do.
+No tests defined.
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary
+dh binary  --buildsystem=meson \
+       --builddirectory=mesonbuild
+[0/1] Installing files.
+Installing data/cleanup-notifier-mx.desktop to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/etc/xdg/autostart
+Installing translations/po/am/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/am/LC_MESSAGES
+Installing translations/po/ar/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/ar/LC_MESSAGES
+Installing translations/po/bg/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/bg/LC_MESSAGES
+Installing translations/po/ca/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/ca/LC_MESSAGES
+Installing translations/po/cs/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/cs/LC_MESSAGES
+Installing translations/po/da/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/da/LC_MESSAGES
+Installing translations/po/de/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/de/LC_MESSAGES
+Installing translations/po/el/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/el/LC_MESSAGES
+Installing translations/po/es_ES/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/es_ES/LC_MESSAGES
+Installing translations/po/es/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/es/LC_MESSAGES
+Installing translations/po/et/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/et/LC_MESSAGES
+Installing translations/po/eu/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/eu/LC_MESSAGES
+Installing translations/po/fa/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/fa/LC_MESSAGES
+Installing translations/po/fil_PH/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/fil_PH/LC_MESSAGES
+Installing translations/po/fi/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/fi/LC_MESSAGES
+Installing translations/po/fr_BE/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/fr_BE/LC_MESSAGES
+Installing translations/po/fr/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/fr/LC_MESSAGES
+Installing translations/po/gl_ES/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/gl_ES/LC_MESSAGES
+Installing translations/po/he_IL/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/he_IL/LC_MESSAGES
+Installing translations/po/hi/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/hi/LC_MESSAGES
+Installing translations/po/hr/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/hr/LC_MESSAGES
+Installing translations/po/hu/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/hu/LC_MESSAGES
+Installing translations/po/id/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/id/LC_MESSAGES
+Installing translations/po/is/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/is/LC_MESSAGES
+Installing translations/po/it/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/it/LC_MESSAGES
+Installing translations/po/ja/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/ja/LC_MESSAGES
+Installing translations/po/kk/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/kk/LC_MESSAGES
+Installing translations/po/ko/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/ko/LC_MESSAGES
+Installing translations/po/lt/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/lt/LC_MESSAGES
+Installing translations/po/mr/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/mr/LC_MESSAGES
+Installing translations/po/nb/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/nb/LC_MESSAGES
+Installing translations/po/nl/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/nl/LC_MESSAGES
+Installing translations/po/pl/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/pl/LC_MESSAGES
+Installing translations/po/pt_BR/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/pt_BR/LC_MESSAGES
+Installing translations/po/pt/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/pt/LC_MESSAGES
+Installing translations/po/ro/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/ro/LC_MESSAGES
+Installing translations/po/ru/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/ru/LC_MESSAGES
+Installing translations/po/sk/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/sk/LC_MESSAGES
+Installing translations/po/sl/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/sl/LC_MESSAGES
+Installing translations/po/sq/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/sq/LC_MESSAGES
+Installing translations/po/sr/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/sr/LC_MESSAGES
+Installing translations/po/sv/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/sv/LC_MESSAGES
+Installing translations/po/tr/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/tr/LC_MESSAGES
+Installing translations/po/uk/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/uk/LC_MESSAGES
+Installing translations/po/zh_CN/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/zh_CN/LC_MESSAGES
+Installing translations/po/zh_TW/LC_MESSAGES/cleanup-notifier-mx.mo to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/locale/zh_TW/LC_MESSAGES
+Installing /tmpdir/build/cleanup-notifier-mx/data/icons/cleanup-notifier-mx.svg to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/icons/hicolor/scalable/apps
+Installing /tmpdir/build/cleanup-notifier-mx/data/icons/cleanup-notifier-mx.svg to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/share/pixmaps
+Installing /tmpdir/build/cleanup-notifier-mx/src/cleanup-notifier-mx.py to /tmpdir/build/cleanup-notifier-mx/debian/cleanup-notifier-mx/usr/bin
+dpkg-deb: building package 'cleanup-notifier-mx' in '../cleanup-notifier-mx_23.04_all.deb'.
+ dpkg-genbuildinfo -O../cleanup-notifier-mx_23.04_amd64.buildinfo
+ dpkg-genchanges -si -O../cleanup-notifier-mx_23.04_amd64.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build .
+dpkg-buildpackage: info: full upload; Debian-native package (full source is included)
+Now signing changes and any dsc files...
+ signfile dsc cleanup-notifier-mx_23.04.dsc fehlix <fehlix@mxlinux.org>
+
+ fixup_buildinfo cleanup-notifier-mx_23.04.dsc cleanup-notifier-mx_23.04_amd64.buildinfo
+ signfile buildinfo cleanup-notifier-mx_23.04_amd64.buildinfo fehlix <fehlix@mxlinux.org>
+
+ fixup_changes dsc cleanup-notifier-mx_23.04.dsc cleanup-notifier-mx_23.04_amd64.changes
+ fixup_changes buildinfo cleanup-notifier-mx_23.04_amd64.buildinfo cleanup-notifier-mx_23.04_amd64.changes
+ signfile changes cleanup-notifier-mx_23.04_amd64.changes fehlix <fehlix@mxlinux.org>
+
+Successfully signed dsc, buildinfo, changes files

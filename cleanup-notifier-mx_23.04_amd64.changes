@@ -1,0 +1,54 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 23 Apr 2023 07:02:47 -0500
+Source: cleanup-notifier-mx
+Binary: cleanup-notifier-mx
+Architecture: source all
+Version: 23.04
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ cleanup-notifier-mx - Check available space at /boot partition.
+Changes:
+ cleanup-notifier-mx (23.04) mx; urgency=medium
+ .
+   * Get translations from transifex
+   * Adjust notification icon
+   * Adjust meson build setup
+Checksums-Sha1:
+ c384bcc45fd40c13fe3fa1dc102f042b4fc9feb0 1541 cleanup-notifier-mx_23.04.dsc
+ 6397d2e69f62cca0b1662cff2502849d295160a8 26716 cleanup-notifier-mx_23.04.tar.xz
+ b98e3fa90e59575b204ab7808eca061cc2b86995 14152 cleanup-notifier-mx_23.04_all.deb
+ bb1667526c287e0fe10dc81f71802d82aef97e6f 6679 cleanup-notifier-mx_23.04_amd64.buildinfo
+Checksums-Sha256:
+ 86c4e6bc020512e79cfdf4070a31947e94d62e4fabed3e404855ec00391a2d6c 1541 cleanup-notifier-mx_23.04.dsc
+ ae7aaca4d3b4785af72b17b8a142710a5d8f33b5d1d875d94993e3b3b5fe56aa 26716 cleanup-notifier-mx_23.04.tar.xz
+ 9cd428e8597c58ebf4cfaafe7f5cf7d50d7a0d631537f9cd3114f1aa06ca52c9 14152 cleanup-notifier-mx_23.04_all.deb
+ b8b979327eecbe57fa18cb2afc48b66ca505937d09bbdfc06f0a8323801ff006 6679 cleanup-notifier-mx_23.04_amd64.buildinfo
+Files:
+ 89ed5618150ea2584d4a095b3bbe17e5 1541 x11 optional cleanup-notifier-mx_23.04.dsc
+ fef09b7bd960aff8dca38968533e5e6c 26716 x11 optional cleanup-notifier-mx_23.04.tar.xz
+ 495a1cfd84c1c28a1deae715a2e18bd6 14152 x11 optional cleanup-notifier-mx_23.04_all.deb
+ a710509fe466ff15a75f2264a0443eb6 6679 x11 optional cleanup-notifier-mx_23.04_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmRFJKsTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6VoID/90Dsv96qQqTrXAAvwhC4AG1Brr3t8m
+VCK1d5GGSXqdBj78P/zP3A3CtDFeTytpJBY84oUJRTthz3FyE8BpQireUD429Ffm
+v1kxAeGE2GU2/ELpP/UBQ6rRpfLfnJ5vKgi2FYDzRPkrZQxX9LdolcO7TYEaALSj
++yIZxdxNADH+Szeoxnab3eMMmWUpCil01Hz5eZtj31J6dCLORtFYyn3x3C0f+sY6
+cFaMG+7csVrQn7ln8exKpep+FzFv3dkkG29fvpGuCVyLJE5owWmLeHYrCCSYQcRK
+fTtG5zG9kNfkRJhEbzy+CuQdLCfYo9pkTbxOXW4IWk4zea16i1E0n5rM3vXlWa0v
+Ea/V2G06eEyXRheigdaOvBU2tEFVbtoGbSumqBHG4IY3JqGUggcjpbQlyCtBgITE
+AoKVx6/qHz00TnUNvH8cBF0chGJ7aqKsrc4zbY6g5XtZQLOFmpexToiseO9pdZkV
+GFhXyLbqILgdEXP00/BLwyKUXGSqfZtMlbzE+0TAAHsuBdtErhfzDQCtsvOjKUnW
+dqUJhwT7kh+ETG+mVE3YIBncfgKyWF9NwOcvf/U8nMhs0XxSO3ec18kTYEwuqgeB
++WsBLzs7Pv29WqMVfWvovUui7gU1TprhUrBQnHGNMQWcz4kKeV/xZ1JOBunj4d1M
+bECvU8dspFIITg==
+=Gvzc
+-----END PGP SIGNATURE-----
