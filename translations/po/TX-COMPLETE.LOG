@@ -1,6 +1,6 @@
 # Transifex resource cleanup-notifier-mx 
 # with minimum completion percent 30%
-# generated at Sat, 22 Apr 2023 19:30:54 -0500
+# generated at Sun, 23 Apr 2023 07:08:43 -0500
    Nr.		Cnt.	 Compl.		Code		Language
    ---		----	 ------		----		--------
      1		   6	   100%    	ca      	ca	Catalan; Valencian
@@ -31,3 +31,21 @@
     26		   4	    66%    	sk      	sk	Slovak
     27		   4	    66%    	tr      	tr	Turkish
     28		   4	    66%    	uk      	uk	Ukrainian
+    29		   3	    50%    	ar      	ar	Arabic
+    30		   3	    50%    	bg      	bg	Bulgarian
+    31		   3	    50%    	eu      	eu	Basque
+    32		   3	    50%    	fa      	fa	Persian
+    33		   3	    50%    	hr      	hr	Croatian
+    34		   3	    50%    	id      	id	Indonesian
+    35		   3	    50%    	is      	is	Icelandic
+    36		   3	    50%    	kk      	kk	Kazakh
+    37		   3	    50%    	ko      	ko	Korean
+    38		   3	    50%    	ro      	ro	Romanian; Moldavian; Moldovan
+    39		   3	    50%    	sr      	sr	Serbian
+    40		   3	    50%    	zh_CN   	zh	Chinese @ China
+    41		   3	    50%    	zh_TW   	zh	Chinese @ Taiwan, Province of China
+    42		   2	    33%    	am      	am	Amharic
+    43		   2	    33%    	et      	et	Estonian
+    44		   2	    33%    	fil_PH  		Filipino @ Philippines
+    45		   2	    33%    	gl_ES   	gl	Galician @ Spain
+    46		   2	    33%    	mr      	mr	Marathi
