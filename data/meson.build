@@ -1,5 +1,5 @@
 
-
+i18n = import('i18n')
 i18n.merge_file(
     input: configure_file(
         input: '@0@.desktop'.format(desktop_id),

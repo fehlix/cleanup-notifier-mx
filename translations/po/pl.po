@@ -7,6 +7,7 @@
 # MX Linux Polska <mxlinuxpl@gmail.com>, 2023
 # Marcin Karpezo <marcin@karpezo.pl>, 2023
 # fehlix, 2023
+# Erne D, 2023
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://forum.mxlinux.org/viewforum.php?f=96\n"
 "POT-Creation-Date: 2023-04-05 01:28+0200\n"
 "PO-Revision-Date: 2023-04-04 23:53+0000\n"
-"Last-Translator: fehlix, 2023\n"
+"Last-Translator: Erne D, 2023\n"
 "Language-Team: Polish (https://app.transifex.com/anticapitalista/teams/10162/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,10 +52,10 @@ msgstr "Wyczyść"
 #. The autostart desktop name will be shown within 'Session and Startup'
 #. (Autostart).
 msgid "Cleanup Notifier"
-msgstr ""
+msgstr "Powiadomienie o czyszczeniu"
 
 #. TRANSLATORS:
 #. The autostart desktop entry comment will be shown within 'Session and
 #. Startup' (Autostart).
 msgid "Check available space at /boot"
-msgstr ""
+msgstr "Sprawdź dostępne miejsce na /boot"

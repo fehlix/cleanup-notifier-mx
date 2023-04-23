@@ -4,7 +4,7 @@
 #: ${ORGANIZATION:=fehlix}
 #: ${PROJECT:=testproject-do-not-use}
 
-: ${MINIMUM_PERC:=10}
+: ${MINIMUM_PERC:=30}
 
 # set transifex organization and project name - if not set in environment already
 : ${ORGANIZATION:=anticapitalista}
@@ -19,7 +19,7 @@ RESOURCE=$PKGNAME
 RESOUCE_ID="${PROJECT}.${RESOURCE}"
 
 PODIR=po
-POTFILE=${PODIR}/${PKGNAME}.pot
+POTFILE=${PKGNAME}.pot
 
 # set minium translations completion in percent to pull translation
 : ${MINIMUM_PERC:=0}
@@ -54,19 +54,14 @@ done
 
 echo
 
-# prepare meson build
-#if [ ! -f po/meson.build ]; then
-#    cat <<EOF > po/meson.build
-#i18n.gettext(gettext_package, preset: 'glib' )
-#EOF
-#fi
 
 LOG=$PODIR/TX-COMPLETE.LOG
+[ -f $LOG ] && mv  $LOG  $LOG~
 
 echo
-echo "# Transifex resource $RESOURCE "                              | tee    $LOG
+echo "# Transifex resource $RESOURCE "                     | tee    $LOG
 echo "# with minimum completion percent ${MINIMUM_PERC}%"  | tee  -a  $LOG
-echo "# generated at $(TZ=EST date -R)"                             | tee -a $LOG
+echo "# generated at $(TZ=EST date -R)"                    | tee -a $LOG
 
 printf '%6s\t\t%4s\t%7s\t\t%s\t\t%s\n' "Nr." "Cnt." "Compl." "Code" "Language" | tee -a $LOG
 printf '%6s\t\t%4s\t%7s\t\t%s\t\t%s\n' "---" "----" "------" "----" "--------" | tee -a $LOG

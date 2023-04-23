@@ -4,22 +4,8 @@ export DH_ALWAYS_EXCLUDE=CVS:.svn:GIT:.git:.gitignore:debs:.tx:*~
 #export DH_VERBOSE=1
 export DH_QUIET=1
 
-PACKAGE := $(shell dpkg-parsechangelog -SSource)
-VERSION := $(shell dpkg-parsechangelog -SVersion)
-$(shell sed -i 's/@VERSION@/$(VERSION)/' meson.build)
-
-override_dh_auto_clean:
-	dh_auto_clean
-	@rm debs/* 2>/dev/null                         || :
-	@sed -i 's/$(VERSION)/@VERSION@/' meson.build || :
-
-override_dh_auto_configure:
-	@sed -i 's/@VERSION@/$(VERSION)/g' meson.build
-	dh_auto_configure
-
-execute_after_dh_builddeb:
-	@sed -i 's/$(VERSION)/@VERSION@/' meson.build
-
 %:
-	dh $@  --buildsystem=meson --builddirectory=mesonbuild
+	dh $@  --buildsystem=meson \
+	       --builddirectory=mesonbuild
+
 

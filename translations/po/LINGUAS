@@ -1,9 +1,6 @@
-# LINGUAS with minimum completion percent 10% 
-# generated at Tue, 04 Apr 2023 19:27:20 -0500
+# LINGUAS with minimum completion percent 30% 
+# generated at Sat, 22 Apr 2023 19:30:54 -0500
 #
-am
-ar
-bg
 ca
 cs
 da
@@ -11,42 +8,24 @@ de
 el
 es_ES
 es
-et
-eu
-fa
-fil_PH
 fi
 fr_BE
 fr
-gl_ES
 he_IL
 hi
-hr
 hu
-id
-is
 it
 ja
-kk
-ko
 lt
-mr
-nb_NO
 nb
-nl_BE
 nl
 pl
 pt_BR
 pt
-ro
 ru
 sk
 sl
 sq
-sr
 sv
-th
 tr
 uk
-zh_CN
-zh_TW

@@ -4,9 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Eadwine Rose, 2023
 # anticapitalista <anticapitalista@riseup.net>, 2023
 # fehlix, 2023
+# Eadwine Rose, 2023
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://forum.mxlinux.org/viewforum.php?f=96\n"
 "POT-Creation-Date: 2023-04-05 01:28+0200\n"
 "PO-Revision-Date: 2023-04-04 23:53+0000\n"
-"Last-Translator: fehlix, 2023\n"
+"Last-Translator: Eadwine Rose, 2023\n"
 "Language-Team: Dutch (https://app.transifex.com/anticapitalista/teams/10162/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,10 +51,10 @@ msgstr "Opschonen"
 #. The autostart desktop name will be shown within 'Session and Startup'
 #. (Autostart).
 msgid "Cleanup Notifier"
-msgstr ""
+msgstr "Melder Schoonmaken"
 
 #. TRANSLATORS:
 #. The autostart desktop entry comment will be shown within 'Session and
 #. Startup' (Autostart).
 msgid "Check available space at /boot"
-msgstr ""
+msgstr "Controleer de beschikbare ruimte op /boot"
