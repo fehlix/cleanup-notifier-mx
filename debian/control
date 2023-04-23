@@ -6,7 +6,6 @@ Build-Depends:
  debhelper-compat (=13),
  dh-python,
  gnome-pkg-tools (>= 0.21),
- librsvg2-bin (>=2.50),
  meson (>= 1.0),
 Standards-Version: 3.9.6
 

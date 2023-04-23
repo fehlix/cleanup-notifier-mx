@@ -13,7 +13,7 @@ foreach iname: inames
     endif
     install_data(
         isvg,
-        install_dir: icon_dir / 'hicolor' / 'scalable' / 'apps'
+        install_dir: icon_dir / 'hicolor' / 'scalable' / 'apps',
         )
     install_data(
         isvg,

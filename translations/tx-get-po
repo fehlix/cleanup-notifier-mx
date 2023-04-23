@@ -8,19 +8,6 @@
 : ${ORGANIZATION:=anticapitalista}
 : ${PROJECT:=antix-development}
 
-# get package name from changelog
-CHNGLOG=$(find {,../,../../}debian/changelog  -type f -name changelog -print -quit 2>/dev/null)
-PKGNAME=$(dpkg-parsechangelog -l "$CHNGLOG" -SSource)
-
-# set transifex resource name here if it is not the package name
-RESOURCE=$PKGNAME
-# set transifex resource_id
-RESOUCE_ID="${PROJECT}.${RESOURCE}"
-
-PODIR=po
-POTFILE=$PKGNAME.pot
-# set minium translations completion in percent to pull translation
-: ${MINIMUM_PERC:=30}
 
 echodo() { echo "${@}";  ${@}; }
 
@@ -29,6 +16,19 @@ echodo() { echo "${@}";  ${@}; }
 [ ! -x "$TXBIN" ] && echo "Error: transifex client not found!" && exit 1
 
 # prepare transifex 
+# get package name from changelog
+CHNGLOG=$(find {,../,../../}debian/changelog  -type f -name changelog -print -quit 2>/dev/null)
+PKGNAME=$(dpkg-parsechangelog -l "$CHNGLOG" -SSource)
+
+# set transifex resource name here if it is not the package name
+RESOURCE=$PKGNAME
+# set transifex resource_id
+RESOUCE_ID="${PROJECT}.${RESOURCE}"
+PODIR=po
+POTFILE=$PKGNAME.pot
+# set minium translations completion in percent to pull translation
+: ${MINIMUM_PERC:=30}
+
 [ -d .tx         ] || mkdir -p .tx
 [ -f  .tx/config ] && rm  .tx/config
 
@@ -48,14 +48,11 @@ EOF
 
 # backup existing - if any yet
 if [ -d ${PODIR} ]; then
-	for PO in ${PODIR}/*.po; do
-		[ -e "$PO" ] || continue
-		mv $PO $PO~
-	done
+    for PO in ${PODIR}/*.po; do
+        [ -e "$PO" ] || continue
+        mv $PO $PO~
+    done
 fi 
-
-# set transifex resource_id
-RESOUCE_ID="${PROJECT}.${RESOURCE}"
 
 echodo  ${TXBIN} pull --translations --all "$RESOUCE_ID"
 

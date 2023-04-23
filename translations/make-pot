@@ -9,11 +9,11 @@ POT=${PKGNAME}.pot
 touch $POT
 
 (
-	cd .. 
-	meson setup mesonbuild
-	cd mesonbuild || exit 
-	TARGET=${PKGNAME}-pot
-	meson compile ${TARGET}
+    cd .. 
+    meson setup mesonbuild
+    cd mesonbuild || exit 
+    TARGET=${PKGNAME}-pot
+    meson compile ${TARGET}
 )
 
 sed -i 's/charset=CHARSET/charset=UTF-8/' ${POT}
