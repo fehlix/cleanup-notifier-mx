@@ -38,21 +38,21 @@ msgstr "Pas assez d’espace sur la partition %s"
 #. The user can click the "Dismiss" button so that the warning will not be
 #. displayed in the future.
 msgid "Dismiss"
-msgstr "Ignorer"
+msgstr "Ne plus afficher"
 
 #. TRANSLATORS:
 #. The user can click the "Clean Up" button to start the cleanup program.
 msgid "Clean Up"
-msgstr ""
+msgstr "Nettoyer"
 
 #. TRANSLATORS:
 #. The autostart desktop name will be shown within 'Session and Startup'
 #. (Autostart).
 msgid "Cleanup Notifier"
-msgstr ""
+msgstr "Notification de nettoyage - Cleanup Notifier"
 
 #. TRANSLATORS:
 #. The autostart desktop entry comment will be shown within 'Session and
 #. Startup' (Autostart).
 msgid "Check available space at /boot"
-msgstr ""
+msgstr "Vérifier l’espace disponible dans /boot"

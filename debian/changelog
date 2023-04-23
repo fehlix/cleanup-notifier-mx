@@ -4,7 +4,7 @@ cleanup-notifier-mx (23.04) mx; urgency=medium
   * Adjust notification icon
   * Adjust meson build setup
 
- -- fehlix <fehlix@mxlinux.org>  Tue, 04 Apr 2023 17:02:56 -0400
+ -- fehlix <fehlix@mxlinux.org>  Sun, 23 Apr 2023 07:02:47 -0500
  
 cleanup-notifier-mx (22.05.02mx) mx; urgency=medium
 
