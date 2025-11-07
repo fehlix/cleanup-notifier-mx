@@ -1,0 +1,55 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 06 Nov 2025 18:27:20 -0500
+Source: cleanup-notifier-mx
+Binary: cleanup-notifier-mx
+Architecture: source all
+Version: 25.11.01
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ cleanup-notifier-mx - Check available space at /boot partition.
+Changes:
+ cleanup-notifier-mx (25.11.01) mx; urgency=medium
+ .
+   * Correct mx-cleanup path
+   * Adjust threshold for space left at /boot
+   * Change idle time to 10 minutes
+   * Translations refresh
+Checksums-Sha1:
+ b6c272205d348190410b504f708772e7948d60e4 1553 cleanup-notifier-mx_25.11.01.dsc
+ f497119643570582e6efa1f4236cb0eca44c091a 27228 cleanup-notifier-mx_25.11.01.tar.xz
+ e6797fd4711f27a61dfe39273e16aaac8965f5a1 14640 cleanup-notifier-mx_25.11.01_all.deb
+ 76ed5db10e832e2adf17deff32ae70eb27f5cbdc 6788 cleanup-notifier-mx_25.11.01_amd64.buildinfo
+Checksums-Sha256:
+ aa58cfcf36af195a218d7b204250890473a862c103858cc975d8ea80b611ef2a 1553 cleanup-notifier-mx_25.11.01.dsc
+ 44f90f2bc73b871634cb8e302881a128d018b6e2fb8a2a705db57b2c2567bf22 27228 cleanup-notifier-mx_25.11.01.tar.xz
+ 42875a31d3f0f92ef7ba4e61243df3950d4d113632a9c03d24bd7e1539136f11 14640 cleanup-notifier-mx_25.11.01_all.deb
+ c1bde7bd3419e7f3a070fc4912d2a2bfcb38f11f46d0d7cdfebba04f843fda62 6788 cleanup-notifier-mx_25.11.01_amd64.buildinfo
+Files:
+ 5b30a317375f36dabdd37b6535726587 1553 x11 optional cleanup-notifier-mx_25.11.01.dsc
+ 86dc6df1d7667cdf7f5acc02ccf1e984 27228 x11 optional cleanup-notifier-mx_25.11.01.tar.xz
+ 0203efebae40fa816d523fa93b4b7a92 14640 x11 optional cleanup-notifier-mx_25.11.01_all.deb
+ e80bb20b0d01bd93f2c3b5e91df3f71d 6788 x11 optional cleanup-notifier-mx_25.11.01_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmkNN+cTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6UB7D/9RgNMIu6GYyZJH5kvxtUyDMJ6zGhdH
+lT3kPD1sXxgfXV28Id4VdolNmjBktGkKI0Jx9Kp4oObBgSWoVqUpQwcwZqj5NmT8
+nC4tdQJACQm0bFBAQ9rPsZ6zV2ZT3UTE6gSkANggiuu5Hc7VTIaxr404MeWwpzeg
+jPtXplUpCOls5pJCrbFb7JIwBTkYebPoP1MM0mT+2i4K/2McaFPgzh+/os+hSRUg
+4J38UlhBq1E1XDZmU/U+GxW8/eB1iT2Ce+/3ku0SvTm9lN486ppFw9HO3NruOoyB
+cx1u1ep8r4GQWSfzT3wT57N8+gZqQYj/AX+FssrOLRuBsBPNuuW7HzQdVtpyaSBa
+GwANafxRVGX54xfZUBsPoUi9OJyFxYy+AJhY4u9GSalVv0SfaHo5DhlQIV4ND1Ax
+ALc7p96FPoY4ROKvw+psl7v+AP2b+YlVXg8WeyBwxTcRnL90rlmPm3dxbmNSd4eV
+4NTXNk9g86p25rCo/YAPOO5Vh9m/4pR3TeAWiRL2JPieJ0acaMsX0OUvM+8qMxmI
+lXyw0+1RWAah3y3Tqz/wStNE4D7xxUJAhFsS/UNPyvZlk8Uuv4t9ayC7rWfODN1S
+q+J+rP/h/u6Vaxgf7gbbnwWX37Uft38T6yTdPKYDmpO70mH4oCWkF1VTs5OZxMO3
+mX+nfWY9h+kyTw==
+=uKjs
+-----END PGP SIGNATURE-----
