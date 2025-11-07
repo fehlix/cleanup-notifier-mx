@@ -4,9 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Transifex Bot <>, 2023
-# fehlix, 2023
-# green <usergreen@users.osdn.me>, 2023
+# Victor Red, 2024
 # 
 #, fuzzy
 msgid ""
@@ -15,46 +13,46 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://forum.mxlinux.org/viewforum.php?f=96\n"
 "POT-Creation-Date: 2023-04-05 01:28+0200\n"
 "PO-Revision-Date: 2023-04-04 23:53+0000\n"
-"Last-Translator: green <usergreen@users.osdn.me>, 2023\n"
-"Language-Team: Japanese (https://app.transifex.com/anticapitalista/teams/10162/ja/)\n"
+"Last-Translator: Victor Red, 2024\n"
+"Language-Team: Russian (Russia) (https://app.transifex.com/anticapitalista/teams/10162/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #. TRANSLATORS:
 #. A message is displayed to warn the user that there is not enough space on
 #. the boot partition.
 msgid "Warning"
-msgstr "警告"
+msgstr "Предупреждение"
 
 #. TRANSLATORS:
 #. A message is displayed to warn the user that there is not enough space on
 #. the boot partition.
 #, python-format
 msgid "Not enough space on %s partition"
-msgstr "%s パーティションには十分な空き容量がありません"
+msgstr "Не хватает места на %s разделе"
 
 #. TRANSLATORS:
 #. The user can click the "Dismiss" button so that the warning will not be
 #. displayed in the future.
 msgid "Dismiss"
-msgstr "取り消す"
+msgstr "Убрать"
 
 #. TRANSLATORS:
 #. The user can click the "Clean Up" button to start the cleanup program.
 msgid "Clean Up"
-msgstr "クリーンアップ"
+msgstr "Очистить"
 
 #. TRANSLATORS:
 #. The autostart desktop name will be shown within 'Session and Startup'
 #. (Autostart).
 msgid "Cleanup Notifier"
-msgstr "クリーンアップ警告"
+msgstr "Оповещатель очистки"
 
 #. TRANSLATORS:
 #. The autostart desktop entry comment will be shown within 'Session and
 #. Startup' (Autostart).
 msgid "Check available space at /boot"
-msgstr "/boot の空き容量を確認します"
+msgstr "Проверить свободное место в /boot"

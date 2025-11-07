@@ -4,9 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Transifex Bot <>, 2023
-# fehlix, 2023
-# green <usergreen@users.osdn.me>, 2023
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
@@ -15,46 +13,46 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://forum.mxlinux.org/viewforum.php?f=96\n"
 "POT-Creation-Date: 2023-04-05 01:28+0200\n"
 "PO-Revision-Date: 2023-04-04 23:53+0000\n"
-"Last-Translator: green <usergreen@users.osdn.me>, 2023\n"
-"Language-Team: Japanese (https://app.transifex.com/anticapitalista/teams/10162/ja/)\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2025\n"
+"Language-Team: Georgian (https://app.transifex.com/anticapitalista/teams/10162/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ka\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #. TRANSLATORS:
 #. A message is displayed to warn the user that there is not enough space on
 #. the boot partition.
 msgid "Warning"
-msgstr "警告"
+msgstr "გაფრთხილება"
 
 #. TRANSLATORS:
 #. A message is displayed to warn the user that there is not enough space on
 #. the boot partition.
 #, python-format
 msgid "Not enough space on %s partition"
-msgstr "%s パーティションには十分な空き容量がありません"
+msgstr ""
 
 #. TRANSLATORS:
 #. The user can click the "Dismiss" button so that the warning will not be
 #. displayed in the future.
 msgid "Dismiss"
-msgstr "取り消す"
+msgstr "მოცილება"
 
 #. TRANSLATORS:
 #. The user can click the "Clean Up" button to start the cleanup program.
 msgid "Clean Up"
-msgstr "クリーンアップ"
+msgstr ""
 
 #. TRANSLATORS:
 #. The autostart desktop name will be shown within 'Session and Startup'
 #. (Autostart).
 msgid "Cleanup Notifier"
-msgstr "クリーンアップ警告"
+msgstr ""
 
 #. TRANSLATORS:
 #. The autostart desktop entry comment will be shown within 'Session and
 #. Startup' (Autostart).
 msgid "Check available space at /boot"
-msgstr "/boot の空き容量を確認します"
+msgstr ""
